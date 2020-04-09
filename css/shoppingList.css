@@ -1,0 +1,197 @@
+.main {
+  width: 100%;
+}
+.main .zcontainer h3 {
+  height: 50px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding: 10px 0px;
+  color: #000000;
+}
+.main .zcontainer h3 a {
+  float: left;
+  font-size: 25px;
+  color: #000000;
+  border-bottom: 2px solid #FF9900;
+}
+.main .zcontainer h3 span {
+  color: red;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.main .zcontainer .dingdan {
+  height: 400px;
+}
+.main .zcontainer .dingdan .tbhead {
+  text-align: center;
+  margin: 0;
+  height: 50px;
+  background: #f3f3f3;
+  border: 1px solid #e9e9e9;
+  margin-top: 20px;
+}
+.main .zcontainer .dingdan .tbhead div {
+  font-size: 14px;
+  color: #000000;
+  line-height: 50px;
+  float: left;
+}
+.main .zcontainer .dingdan .tbhead div .inp {
+  float: left;
+  margin-top: 3px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.main .zcontainer .dingdan .tbhead div span {
+  float: left;
+  margin-left: 20px;
+  margin-top: -2px;
+}
+.main .zcontainer .dingdan .tbbody .tbtr {
+  margin: 30px 0px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .shop {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e1e1e1;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .shop p {
+  float: left;
+  line-height: 30px;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .shop p:nth-of-type(2) {
+  float: left;
+  line-height: 30px;
+  margin-left: 30px;
+  color: #000000;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .pname {
+  padding-right: 228px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .pname a:nth-of-type(1) {
+  float: left;
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .pname a:nth-of-type(2) {
+  line-height: 20px;
+  color: #000000;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .pname .gmsl {
+  text-align: center;
+  position: absolute;
+  right: 20%;
+  top: 30%;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .username {
+  text-align: center;
+  line-height: 73px;
+  color: #000000;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .pAprice {
+  text-align: center;
+  line-height: 73px;
+  color: #000000;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .status {
+  text-align: center;
+}
+.main .zcontainer .dingdan .tbbody .tbtr .status a {
+  margin-left: 34%;
+  margin-top: 20%;
+  float: left;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  line-height: 30px;
+  background: #f7f7f7;
+  border-radius: 5px;
+  color: #000000;
+  border: 1px solid #ddd;
+}
+.main h4 {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 150px;
+  line-height: 20px;
+  color: red;
+  padding: 5px 0px;
+  border-bottom: 1px solid red;
+}
+.main .tj ul {
+  width: 1249px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main .tj ul :hover {
+  background: #fff;
+  border-color: #E3E3E3;
+  box-shadow: 6px 6px 6px rgba(211, 211, 211, 0.6);
+}
+.main .tj ul li {
+  cursor: pointer;
+  width: 245px;
+  height: 373px;
+  border: 1px solid transparent;
+  padding: 0px 19px ;
+  float: left;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.main .tj ul li a {
+  color: #000000;
+  float: left;
+  width: 209px;
+  height: 234px;
+  text-decoration: none;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a img {
+  width: 100%;
+  height: 100%;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a p:nth-of-type(1) {
+  display: inline-block;
+  height: 35px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a p:nth-of-type(1) strong {
+  line-height: 14px;
+  font-size: 14px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a p:nth-of-type(2) {
+  line-height: 30px;
+  font-size: 13px;
+  margin-top: 10px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a p:nth-of-type(2) span {
+  color: #333333;
+}
+.main .tj ul li a p:nth-of-type(3) {
+  line-height: 20px;
+  font-size: 13px;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main .tj ul li a p:nth-of-type(3) span {
+  float: right;
+  color: #333333;
+  border: none !important;
+  box-shadow: none !important;
+}

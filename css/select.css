@@ -1,0 +1,317 @@
+@charset "utf-8";
+.box .wrap {
+  width: 100%;
+}
+.box .main {
+  width: 100%;
+  padding-top: 50px;
+  background: #f9f7f4;
+}
+.box .main .zcontainer {
+  width: 1240px;
+}
+.box .main .zcontainer .row {
+  width: 100%;
+  margin-bottom: 50px;
+  background: #fff;
+  padding: 15px 20px;
+}
+.box .main .zcontainer .row div.shaixuan {
+  box-sizing: border-box;
+  width: 1130px;
+  height: 130px;
+  border: 1px solid #e0dcdc;
+  border-radius: 3px;
+  padding: 55px 20px;
+}
+.box .main .zcontainer .row div.shaixuan div {
+  float: left;
+  width: 170px;
+  height: 58px;
+  margin-right: 20px;
+}
+.box .main .zcontainer .row div.shaixuan div p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #676767;
+}
+.box .main .zcontainer .row div.shaixuan div select {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4c4c4c;
+  vertical-align: top;
+  width: 168px;
+  height: 30px;
+}
+.box .main .zcontainer .row div.shaixuan div select option.big {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.box .main .zcontainer .row div.shaixuan div select option.lite {
+  font-size: 13px;
+  color: #000;
+}
+.box .main .zcontainer .row div.shaixuan button {
+  font-size: 13px;
+  padding: 5px 12px!important;
+  font-weight: 700;
+  border-radius: 3px;
+  background: #ff9900;
+  color: #fff;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.box .main .zcontainer .row div.filters {
+  width: 1130px;
+  height: 70px;
+  margin-top: 20px;
+}
+.box .main .zcontainer .row div.filters p {
+  float: right;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #000;
+}
+.box .main .zcontainer .row div.filters div.filter {
+  width: 223px;
+  height: 60px;
+  float: left;
+  margin-right: 20px;
+}
+.box .main .zcontainer .row div.filters div.filter .input-group label {
+  font-size: 15px;
+  color: #000;
+}
+.box .main .zcontainer .row div.filters div.filter .input-group input {
+  width: 192px;
+  height: 30px;
+  font-size: 14px;
+  color: #000000;
+  border: 1px solid #e0dcdc;
+  background-color: #fff;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.box .main .zcontainer .row div.filters div.filter .input-group button {
+  border: none;
+  outline: none;
+  background: #ff9900;
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.box .main .zcontainer .row div.filters div.paixu {
+  float: left;
+  width: 170px;
+  height: 58px;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.box .main .zcontainer .row div.filters div.paixu p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #676767;
+  float: none;
+}
+.box .main .zcontainer .row div.filters div.paixu select {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4c4c4c;
+  vertical-align: top;
+  width: 168px;
+  height: 30px;
+}
+.box .main .zcontainer .row div.filters div.paixu select option.lite {
+  font-size: 13px;
+  color: #000;
+}
+.box .main .zcontainer .row div.allproduct {
+  overflow: hidden;
+}
+.box .main .zcontainer .row div.allproduct .col-lg-3:hover {
+  background: #fff;
+  border-color: #e0dfda;
+}
+.box .main .zcontainer .row div.allproduct .col-lg-3 {
+  cursor: pointer;
+  margin: 0px 3.15px 15px 0px;
+  padding: 10px 10px;
+  width: 200px;
+  height: 280px;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+.box .main .zcontainer .row div.allproduct .col-lg-3 a {
+  background: #fff;
+  float: left;
+  height: 195px;
+  width: 175px;
+  margin-bottom: 10px;
+}
+.box .main .zcontainer .row div.allproduct .col-lg-3 a img {
+  border-radius: 3px;
+}
+.box .main .zcontainer .row div.allproduct .col-lg-3 h3 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+}
+.box .main .zcontainer .row div.allproduct .store {
+  width: 100%;
+  background: #fff;
+  height: 258px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.box .main .zcontainer .row div.allproduct .store .storel {
+  cursor: pointer;
+  border: 1px solid #e1e1e1;
+  width: 143px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+  float: left;
+}
+.box .main .zcontainer .row div.allproduct .store .storel a:nth-of-type(1) {
+  width: 100%;
+  float: left;
+  width: 103px;
+  height: 128px;
+  margin-left: 16px;
+  text-align: center;
+}
+.box .main .zcontainer .row div.allproduct .store .storel a:nth-of-type(1) img {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 20px;
+}
+.box .main .zcontainer .row div.allproduct .store .storel a:nth-of-type(1) p {
+  font-size: 17px;
+  color: #333;
+}
+.box .main .zcontainer .row div.allproduct .store .storel a:nth-of-type(2) {
+  height: 25px;
+  width: 24px;
+  float: left;
+  background: #fff;
+  margin-left: 39%;
+}
+.box .main .zcontainer .row div.allproduct .store .storel div {
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid #e1e1e1;
+  position: relative;
+  top: 176px;
+  background: #fafafa;
+}
+.box .main .zcontainer .row div.allproduct .store .storel div img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  bottom: 10px;
+  left: 10px;
+  background: #fafafa;
+  border-radius: 50%;
+}
+.box .main .zcontainer .row div.allproduct .store .storel div span {
+  color: #ff9900;
+  width: 50px;
+  position: absolute;
+  left: 60px;
+  top: 15px;
+}
+.box .main .zcontainer .row div.allproduct .store .storer {
+  background: #fff;
+  width: 1057px;
+  margin-left: 144px;
+  height: 100%;
+}
+.box .main .zcontainer .row div.allproduct .store .storer div {
+  float: left;
+  width: 143px;
+  height: 50%;
+  padding: 0px 15px;
+}
+.box .main .zcontainer .row div.allproduct .store .storer div:nth-last-of-type(1) {
+  padding: 4px;
+  border: 1px solid #e1e1e1;
+}
+.box .main .zcontainer .row div.allproduct .store .storer div:nth-last-of-type(1) a {
+  padding-top: 37px;
+  background: #eaeaea;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.box .main .zcontainer .row div.allproduct .store .storer div:nth-last-of-type(1) a p:nth-of-type(1) {
+  font-size: 25px;
+  color: #ff9900;
+  text-align: center;
+}
+.box .main .zcontainer .row div.allproduct .store .storer div:nth-last-of-type(1) a p:nth-of-type(2) {
+  color: #333;
+  text-align: center;
+  font-size: 14px;
+}
+.box .main .zcontainer .row div.page {
+  margin-left: 160px;
+  margin-bottom: 50px;
+}
+.box .main .zcontainer .row div.page div:hover a {
+  border-color: #FF9900;
+  color: #FF9900;
+}
+.box .main .zcontainer .row div.page div {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+.box .main .zcontainer .row div.page div a {
+  background: #fff;
+  border: 1px solid #d3ced2;
+  float: left;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+.box .main .zcontainer .row div.page ul {
+  display: inline-block;
+  overflow: hidden;
+}
+.box .main .zcontainer .row div.page ul li:hover a {
+  border-color: #FF9900;
+  color: #FF9900;
+}
+.box .main .zcontainer .row div.page ul .active a {
+  border-color: #FF9900;
+  color: #FF9900;
+}
+.box .main .zcontainer .row div.page ul li {
+  float: left;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-right: none;
+  box-sizing: border-box;
+}
+.box .main .zcontainer .row div.page ul li a {
+  text-decoration: none;
+  border: 1px solid #d3ced2;
+  float: left;
+  height: 40px;
+  width: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+}
+.box .main .zcontainer .row div.page ul li:nth-last-of-type(1) {
+  border-right: 1px solid #d3ced2;
+}
